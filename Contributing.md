@@ -26,6 +26,9 @@ We recognize that users expect their existing data, accumulated under past versi
 
 The use of modules, called applications directories, is strongly encouraged for adding functionality that is large in scope.
 
+##How to join this project##
+
+See the document How to Join.md for more details.
 
 ###Technical details###
 
@@ -67,3 +70,5 @@ See https://help.github.com/articles/using-pull-requests/
 “Fork and pull” model is good for this project (when there are more contributors).
 The GitHub UI can be used. Review the changes and 
 git merge --no-ff <branch>
+
+
