@@ -30,7 +30,7 @@ The use of modules, called applications directories, is strongly encouraged for 
 
 See the document How to Join.md for more details.
 
-###Technical details###
+##Technical details##
 
 The github repository is https://github.com/OpenVnmrJ/ and only a documentation page exists at this time. Sign up for a free github account to access the repository. With github all changes are made offline and merged back in.
 
@@ -41,6 +41,26 @@ http://gitx.frim.nl
 
 On Ubuntu: sudo apt-get install gitk
 
+###Branch information###
+
+OVJ is developed on 2 main branches
+
+*Master: This will produce the final downloadable archives. It must be kept celan of bugs!
+*Development: This is the current working branch. Branch your feature branch from development. Once Development is validated, the code will be pushed into Master
+
+If we have a cycle of regular development, we can have version branches.
+
+###Appdirs###
+
+OVJ uses Appdirs; modular components that can be optionally loaded to configure UI, piulse sequence, macros etc. Please work in the Development Appdir if you are not changing the Core OVJ. When a new release of OVJ is made, the Development Appdir will be moved to a release Appdir. 
+
+If you have a very large numbmer of files and changes, you can make your own Appdir in the Development branch.
+
+###Important tips###
+
+*Always work from a feature branch. Since all code submissions will be through a Pull Request, feature branches isolate changes from one submission to another.
+*Always start your new branch from the branch you want to submit to: git checkout -b myfeature development
+Remember to submit your Pull Request to the proper dev- branch and not master or 3.x
 ###Git workflow###
 _This is for a public repository. Initially, the repository is private until copyright is transfered to wither Orgeon or Stanford_
 
