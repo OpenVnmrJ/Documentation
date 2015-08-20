@@ -20,9 +20,14 @@ The Board of Trustees of Leland Stanford Junior University ("Stanford University
 
 ##Using repository##
 This repository is for people that want to download, compile, fix and contribute back to the community. 
-If you want to download and run OpenVnmrJ, you should get a pre-built archive and install a local copy.
 
-**Do not delete the Agilent supplied VnmrJ on your spectrometer—Agilent service requires VnmrJ 4.2 and the console spoftware is NOT open sourced.**
+If you only want to download and run OpenVnmrJ, you should get a pre-built archive and install a local copy. See Downloading.md for more information.
+
+## Spectrometer users, read this ##
+** Do not delete the Agilent supplied VnmrJ on your spectrometer
+* Agilent service requires VnmrJ 4.2
+* The spectrometer console software is NOT open sourced
+**
 
 ##Contributing##
 See the file Contributing.md to get started.

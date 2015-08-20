@@ -45,7 +45,7 @@ On Ubuntu: sudo apt-get install gitk
 
 OVJ is developed on 2 main branches
 
-*Master: This will produce the final downloadable archives. It must be kept celan of bugs!
+*Master: This will produce the final downloadable archives. It must be kept clean of bugs!
 *Development: This is the current working branch. Branch your feature branch from development. Once Development is validated, the code will be pushed into Master
 
 If we have a cycle of regular development, we can have version branches.
