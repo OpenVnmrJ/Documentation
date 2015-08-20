@@ -1,10 +1,8 @@
-OVJ_Documentation-private
-
 #Documentation#
 
 ##Who we are##
 
-The OpenVnmrJ project as a community revolves around OpenVnmrJ as a piece of software. OpenVnmrJ resulted from the open-source release of commercial software for running NMR spectrometers. We are a group of open-source developers and users who develop, use, document, and promote OpenVnmrJ, NMR spectrometers running OpenVnmrJ, and other related activities for our mutual benefit.
+The OpenVnmrJ project as a community revolves around OpenVnmrJ as a piece of software. OpenVnmrJ resulted from the open-source release of commercial software for running NMR spectrometers. We are a group of open-source developers and users who develop, use, document, and promote OpenVnmrJ, NMR spectrometers and data stations running OpenVnmrJ, and other related activities for our mutual benefit.
 
 ##OpenVnmrJ##
 
@@ -16,21 +14,22 @@ OpenVnmrJ is designed to be very extensible with:
 - A comprehensive library of pulse programs, written in C, usually with macros and XML files to ease setting up experiments and processing data
 - All these are open sourced and can use help to maintain code, fix bugs, add new features, and improve the user experience for all uses of OpenVnmrJ.
 
-The Board of Trustees of Leland Stanford Junior University ("Stanford University") legally owns the project assets. 
-
 ##Using repository##
 This repository is for people that want to download, compile, fix and contribute back to the community. 
 
 If you only want to download and run OpenVnmrJ, you should get a pre-built archive and install a local copy. See Downloading.md for more information.
 
 ## Spectrometer users, read this ##
-** Do not delete the Agilent supplied VnmrJ on your spectrometer
+** Do not delete the Agilent supplied VnmrJ on your spectrometer **
 * Agilent service requires VnmrJ 4.2
 * The spectrometer console software is NOT open sourced
-**
+
 
 ##Contributing##
 See the file Contributing.md to get started.
+
+## Owner ##
+The Board of Trustees of Leland Stanford Junior University ("Stanford University") legally owns the project assets. 
 
 ##License##
 Most of the code and documentation are licnesed under the Apache 2.0 license, but some parts are licensed under the GLPv3 license.
