@@ -44,11 +44,19 @@ On Ubuntu: sudo apt-get install gitk
 
 OVJ code is developed on 2 main branches
 
-*Master: This will produce the final compiled downloadable archives. It must be kept clean of bugs! Unless it is a critical bug-fix, no new code should be branched directly from Master.
+*Master: This will produce the final compiled downloadable archives. It must be kept clean of bugs! Unless it is a critical bug-fix, no new code should be branched directly from Master. Master will be a protected branch.
 
 *Development: This is the current working branch. To add new code or documentation to OVJ, create a feature branch (name it something descriptive) from the Development branch. When your feature branch is complete, make a pull request back into Development. Once Development is validated and tested, the code can be pushed into Master.
 
-If we have a cycle of regular development, we may have version branches.
+*If we have a cycle of regular development, we may have version branches.
+
+*Keep your commits small and atomic, for example adding a function or fixing a bug, but not both at once.
+
+*Commits must not touch many files at once, with the exception of trivial changes, such as copyright. Try to break your commit into small, more contained changes.
+
+*Flatten your commit before you make a pull request.
+
+*Rebase from the latest development branch
 
 ###Appdirs###
 
@@ -62,7 +70,7 @@ If you have a significantly new feature or a very large number of files and chan
 
 *Always work from a feature branch. Since all code submissions will be through a Pull Request, feature branches isolate changes from one submission to another.
 *Always start your new branch from the branch you want to submit to: git checkout -b myfeature development
-Remember to submit your Pull Request to the proper dev- branch and not master or 3.x
+*Remember to submit your Pull Request to the proper dev- branch and not master or 3.x
 
 ###Git workflow###
 
@@ -82,6 +90,8 @@ A "quick" summary of how to use change/add files is:
 9. Make a pull request back to the development branch, see Git Pulls
 
  A bit complicated for one page, but it works well with hundreds of files and hundreds of contributors.
+ 
+ See https://sandofsky.com/blog/git-workflow.html for a background on git workflow.
 
 
 ###Branches###
