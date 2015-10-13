@@ -1,6 +1,5 @@
 #Contributing#
 ##Our Philosophy##
-
 ###Low barrier of entry###
 
 We strive for a low barrier of entry to the project. This is partly achieved by not requiring new contributors to “prove themselves” before they are admitted to the "committership" (or soe other honorific).  Instead, we assume that all contributors are good until proven otherwise, and this principle applies to anybody without arbitrary discrimination. We recognize that every contribution is precious, and we recognize that every added process turns away some potential contributors.
@@ -27,7 +26,9 @@ The use of modules, called applications directories (or "appdirs"), is strongly 
 
 ##How to join this project##
 
-See the document How to Join.md for more details.
+See the document How to Join.md for more details. 
+
+_td;dr: Before submitting any code or other contribution, you must sign a license with the University of Oregon._
 
 ##Technical details##
 
@@ -36,27 +37,28 @@ The github repository is https://github.com/OpenVnmrJ/ and only a documentation 
 You’ll need to have git (a set of command line programs) installed on your computer and/or a git UI (if you are uncomfortable with the command line), see:
 https://windows.github.com
 https://mac.github.com
+http://gitup.co/
 http://gitx.frim.nl
 
 On Ubuntu: sudo apt-get install gitk
 
 ###Branch information###
 
-OVJ code is developed on 2 main branches
+OVJ code is developed on two main branches; see http://nvie.com/posts/a-successful-git-branching-model/
 
-*Master: This will produce the final compiled downloadable archives. It must be kept clean of bugs! Unless it is a critical bug-fix, no new code should be branched directly from Master. Master will be a protected branch.
+* Master: This will produce the final compiled downloadable archives. It must be kept clean of bugs! Unless it is a critical bug-fix, no new code should be branched directly from Master. Master will be a protected branch and is regarded as "stable."
 
-*Development: This is the current working branch. To add new code or documentation to OVJ, create a feature branch (name it something descriptive) from the Development branch. When your feature branch is complete, make a pull request back into Development. Once Development is validated and tested, the code can be pushed into Master.
+* Development: This is the current working branch. To add new code or documentation to OVJ, create a feature branch (name it something descriptive) from the Development branch. When your feature branch is complete, make a pull request back into Development. Once Development is validated and tested, the code can be pushed into Master.
 
-*If we have a cycle of regular development, we may have version branches.
+* If we have a cycle of regular development, we may have version branches.
 
-*Keep your commits small and atomic, for example adding a function or fixing a bug, but not both at once.
+* Keep your commits small and atomic, for example adding a function or fixing a bug, but not both at once.
 
-*Commits must not touch many files at once, with the exception of trivial changes, such as copyright. Try to break your commit into small, more contained changes.
+* Commits must not touch many files at once, with the exception of trivial changes, such as copyright. Try to break your commit into small, more contained changes.
 
-*Flatten your commit before you make a pull request.
+* Flatten your commit before you make a pull request.
 
-*Rebase from the latest development branch
+* Rebase from the latest development branch
 
 ###Appdirs###
 
@@ -68,15 +70,13 @@ If you have a significantly new feature or a very large number of files and chan
 
 ###Important tips###
 
-*Always work from a feature branch. Since all code submissions will be through a Pull Request, feature branches isolate changes from one submission to another.
-*Always start your new branch from the branch, development, you want to submit to: git checkout -b myfeature development
-*Remember to submit your Pull Request to the proper development branch and not master
+* Always work from a feature branch. Since all code submissions will be through a Pull Request, feature branches isolate changes from one submission to another.
+* Always start your new branch from the development branch: `git checkout -b myfeature development`
+* Remember to submit your Pull Request to the development branch and not master
 
 ###Git workflow###
 
 _This is for a public repository._
-
-
 
 A "quick" summary of how to use change/add files is:
 
@@ -128,7 +128,7 @@ The GitHub UI can be used. Review the changes and
 `git merge --no-ff development`
 
 ## delete your feature branch ##
-Delete your feature bracnh once done with it
+Delete your feature branch once done with it
 On your fork on github
 `git push origin --delete <branch-name>`
 In your local repository
