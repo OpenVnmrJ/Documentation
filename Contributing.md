@@ -74,6 +74,7 @@ If you have a significantly new feature or a very large number of files and chan
 * Always start your new branch from the development branch: `git checkout -b myfeature development`
 * Remember to submit your Pull Request to the development branch and not master
 
+
 ###Git workflow###
 
 _This is for a public repository._
