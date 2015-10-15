@@ -1,6 +1,5 @@
 #Contributing#
 ##Our Philosophy##
-
 ###Low barrier of entry###
 
 We strive for a low barrier of entry to the project. This is partly achieved by not requiring new contributors to “prove themselves” before they are admitted to the "committership" (or soe other honorific).  Instead, we assume that all contributors are good until proven otherwise, and this principle applies to anybody without arbitrary discrimination. We recognize that every contribution is precious, and we recognize that every added process turns away some potential contributors.
@@ -27,7 +26,9 @@ The use of modules, called applications directories (or "appdirs"), is strongly 
 
 ##How to join this project##
 
-See the document How to Join.md for more details.
+See the document How to Join.md for more details. 
+
+_td;dr: Before submitting any code or other contribution, you must sign a license with the University of Oregon._
 
 ##Technical details##
 
@@ -36,19 +37,28 @@ The github repository is https://github.com/OpenVnmrJ/ and only a documentation 
 You’ll need to have git (a set of command line programs) installed on your computer and/or a git UI (if you are uncomfortable with the command line), see:
 https://windows.github.com
 https://mac.github.com
+http://gitup.co/
 http://gitx.frim.nl
 
 On Ubuntu: sudo apt-get install gitk
 
 ###Branch information###
 
-OVJ code is developed on 2 main branches
+OVJ code is developed on two main branches; see http://nvie.com/posts/a-successful-git-branching-model/
 
-*Master: This will produce the final compiled downloadable archives. It must be kept clean of bugs! Unless it is a critical bug-fix, no new code should be branched directly from Master.
+* Master: This will produce the final compiled downloadable archives. It must be kept clean of bugs! Unless it is a critical bug-fix, no new code should be branched directly from Master. Master will be a protected branch and is regarded as "stable."
 
-*Development: This is the current working branch. To add new code or documentation to OVJ, create a feature branch (name it something descriptive) from the Development branch. When your feature branch is complete, make a pull request back into Development. Once Development is validated and tested, the code can be pushed into Master.
+* Development: This is the current working branch. To add new code or documentation to OVJ, create a feature branch (name it something descriptive) from the Development branch. When your feature branch is complete, make a pull request back into Development. Once Development is validated and tested, the code can be pushed into Master.
 
-If we have a cycle of regular development, we may have version branches.
+* If we have a cycle of regular development, we may have version branches.
+
+* Keep your commits small and atomic, for example adding a function or fixing a bug, but not both at once.
+
+* Commits must not touch many files at once, with the exception of trivial changes, such as copyright. Try to break your commit into small, more contained changes.
+
+* Flatten your commit before you make a pull request.
+
+* Rebase from the latest development branch
 
 ###Appdirs###
 
@@ -60,37 +70,67 @@ If you have a significantly new feature or a very large number of files and chan
 
 ###Important tips###
 
-*Always work from a feature branch. Since all code submissions will be through a Pull Request, feature branches isolate changes from one submission to another.
-*Always start your new branch from the branch you want to submit to: git checkout -b myfeature development
-Remember to submit your Pull Request to the proper dev- branch and not master or 3.x
+* Always work from a feature branch. Since all code submissions will be through a Pull Request, feature branches isolate changes from one submission to another.
+* Always start your new branch from the development branch: `git checkout -b myfeature development`
+* Remember to submit your Pull Request to the development branch and not master
+
 
 ###Git workflow###
 
-_This is for a public repository. Initially, the repository is private until copyright is transfered to wither Orgeon or Stanford_
+_This is for a public repository._
 
 A "quick" summary of how to use change/add files is:
 
-1. Fork the repository into your own account (Use github UI, see https://help.github.com/articles/fork-a-repo/)
-2. Download the repository to your computer (Use github UI or git clone https://github.com/YOURREPO/Documentation.git)
-3. Checkout the development branch: git checkout development (I need to make a development branch!)
-4. Start your branch git checkout -b "my feature" (see branches below) Always start a new branch for your work, so it can be merged in later, and branch from development, not master
+1. Fork this repository into your own account (Use github UI, see https://help.github.com/articles/fork-a-repo/)
+2. Download the forked repository to your computer (Use github UI or `git clone repo-url`)
+3. Checkout the development branch: 
+```
+git checkout development
+git pull
+```
+4. Start your branch `git checkout -b "my feature"` (see branches below)
+  1. Always start a new branch for your work, so it can be merged in later,   
+  2. Branch from development, not master
 5. Make your changes, add, delete files on your own computer
+  1. Do not all files local to your computer (that are not needed to be shared) to the repository
+6. Rebase frequently to pull in changes from the development branch
+`git rebase upstream development`
 6. Commit your changes
-7a. Rebase from the development branch (to merge in any new changes to the documentation)
-7b. Rebase interactive to squash your commits (good if you’ve got many commits)
+  a. Use the `git commit --fixup` to easily squahs later
+7. After you have done the feature, if you have many commits squash them, see below
+  1. See https://robots.thoughtbot.com/autosquashing-git-commits for to easily squash commits
+  2. It is important to clean up commits before they are shared!
+  3. Write a good commit; you shouldn't have many commits, since you've squashed them. See http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+```
+Present-tense summary under 50 characters
+
+* More information about commit (under 72 characters).
+* More information about commit (under 72 characters).
+
+[PROJECT TICKET]
+```
 8. Push your changes back to your fork
-9. Make a pull request back to the development branch, see Git Pulls
+  a. You might need to force your push if you've squashed commits
+9. Make a pull request back to the development branch, see Git Pulls, below
 
  A bit complicated for one page, but it works well with hundreds of files and hundreds of contributors.
-
+ 
+ See https://sandofsky.com/blog/git-workflow.html for a background on git workflow. See also https://github.com/thoughtbot/guides/blob/master/protocol/git/README.md for another workflow.
 
 ###Branches###
-git checkout -b "my feature"
-See https://www.atlassian.com/git/tutorials/using-branches/git-checkout how to make a branch ind use branches
+`git checkout -b "my feature"`
+See https://www.atlassian.com/git/tutorials/using-branches/git-checkout on how to make a branch and use branches
 See http://nvie.com/posts/a-successful-git-branching-model/ for how this applies to a real project
 
 ###Git pulls###
 See https://help.github.com/articles/using-pull-requests/
 “Fork and pull” model is good for this project (when there are more contributors).
 The GitHub UI can be used. Review the changes and
-git merge --no-ff <branch>
+`git merge --no-ff development`
+
+## delete your feature branch ##
+Delete your feature branch once done with it
+On your fork on github
+`git push origin --delete <branch-name>`
+In your local repository
+`git branch --delete <branch-name>`

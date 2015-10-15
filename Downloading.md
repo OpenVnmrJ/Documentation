@@ -10,7 +10,7 @@ OVJ is compatible with these Varian/Agilent consoles:
  * Mercury
  * VnmrS
  * DD2
- * VeriPulse (?)
+ * VeriPulse
  * Inova (?)
 
 ## Operating Systems ##
@@ -18,6 +18,8 @@ OVJ is compatible with these Varian/Agilent consoles:
 OVJ is tested and runs on these Linux systems:
  * CentOS 6
  * Ubuntu 14.04 (Trusty Tahr)
+ 
+OVJ runs as a datastaion on OS X.
 
 ## Getting the release ##
 
@@ -25,9 +27,11 @@ TODO!
 
 ##Disclaimer##
 
-** Do not delete the Agilent supplied VnmrJ on your spectrometer
+**Do not delete the Agilent supplied VnmrJ on your spectrometer**
 * Agilent service requires VnmrJ 4.2
 * The spectrometer console software is NOT open sourced
-**
 
-To the fullest extent allowed by law, the work is provided "as-is" with no warrantees whatsoever, either expressed or implied, oral or written. Agilent specifically disclaims any warrantees of merchantability or fitness for a particular purpose. This work is not a manufacturer's release version. All disputes will be heard in the courts of California.
+
+*To the fullest extent allowed by law, the work is provided "as-is" with no warrantees whatsoever, either expressed or implied, oral or written. Agilent specifically disclaims any warrantees of merchantability or fitness for a particular purpose. This work is not a manufacturer's release version. All disputes will be heard in the courts of California.*
+
+*OpenVnmrJ is owned by the University of Oregon.*
