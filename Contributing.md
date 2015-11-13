@@ -47,7 +47,7 @@ https://mac.github.com
 http://gitup.co/
 http://gitx.frim.nl
 
-On Ubuntu: sudo apt-get install gitk
+On Ubuntu: `sudo apt-get install gitk`
 
 ### Branch information
 
