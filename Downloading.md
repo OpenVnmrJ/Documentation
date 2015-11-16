@@ -1,4 +1,8 @@
-# Downloading OpenVnmrJ #
+---
+layout: article
+title: "Downloading OpenVnmrJ"
+excerpt: "How to download and install OpenVnmrJ"
+---
 
 If you only want to test OpenVnmrJ (OVJ) without building from source code, please read this document. Read the disclaimer below.
 
