@@ -2,8 +2,6 @@
 layout: article
 title: Contributing
 excerpt: "Instructions on how to contribute to the OpenVnmrJ project."
-image:
-  feature: sample-image-3.jpg
 ---
 {% include toc.html %}
 
