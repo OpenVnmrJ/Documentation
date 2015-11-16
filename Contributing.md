@@ -9,6 +9,7 @@ excerpt: "Instructions on how to contribute to the OpenVnmrJ project."
 
 ### Low barrier of entry
 
+
 We strive for a low barrier of entry to the project. This is partly achieved by not requiring new contributors to “prove themselves” before they are admitted to the "committership" (or soe other honorific).  Instead, we assume that all contributors are good until proven otherwise, and this principle applies to anybody without arbitrary discrimination. We recognize that every contribution is precious, and we recognize that every added process turns away some potential contributors.
 
 The lower barrier of entry is partly achieved by separating the project into "core", "appdirs" (groups of pulse programs, macros, & templates), documentation, and other independent pieces, thereby reducing the need for extended collaboration and communication. We try to let everyone choose their own turf where they can work efficiently without bogged down by too many discussions and compromises.
@@ -83,7 +84,7 @@ If you have a significantly new feature or a very large number of files and chan
 
 ### Git workflow
 
-_This is for a public repository._
+_This is a public repository._
 
 A "quick" summary of how to use change/add files is:
 
@@ -137,6 +138,7 @@ The GitHub UI can be used. Review the changes and
 ## Delete your feature branch
 Delete your feature branch once done with it  
 On your fork on github  
+
 `git push origin --delete <branch-name>`
 In your local repository  
 `git branch --delete <branch-name>`
