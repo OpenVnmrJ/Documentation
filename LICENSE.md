@@ -1,3 +1,8 @@
+---
+layout: article
+title: "License"
+excerpt: "License information for OpenVnmrJ"
+---
 LICENSE
 
 This work is licensed under the Apache 2.0 license EXCEPT those parts linked to GPL libraries
