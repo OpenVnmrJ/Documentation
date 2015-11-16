@@ -53,4 +53,3 @@ The University of Oregon acknowledges the external advisory body, the VnmrJ Open
 VOSSG will assist in determining the appropriate licensing terms for release of the code to the world, any additional licensing terms for contributors, and any other ground rules/expectations. Current members of VOSSG shall determine any additions or changes to VOSSG membership.
 
 VOSSG will also take primary responsibility for maintaining the code, documentation, and for any modifications to OpenVnmrJ, via the OpenVnmrJ project on GitHub and/or any other method chosen by VOSSG.
-
