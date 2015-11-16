@@ -19,13 +19,13 @@ While Agilent retains the rights to VnmrJ 4.2 (and previous versions of VnmrJ), 
 University of Oregon contacts include:
 
 	Michael Strain, Director, CAMCOR NMR Facility,
-	University of Oregon
-	mstrain@uoregon.edu, 541-346-4605
-	(technical contact and liaison to VOSSG and NMR community)
+	University of Oregon  
+	mstrain@uoregon.edu, 541-346-4605  
+	(technical contact and liaison to VOSSG and NMR community)  
 
-	Charles Williams, Associate Vice President for Innovation,
-	University of Oregon crw@uoregon.edu 541-346-2028
-	(legal signatory & director of Technology Transfer office)
+	Charles Williams, Associate Vice President for Innovation,  
+	University of Oregon crw@uoregon.edu 541-346-2028  
+	(legal signatory & director of Technology Transfer office)  
 
 The University of Oregon accepts ownership/custody of the OpenVnmrJ code for the benefit of the greater NMR community, and with the intention of facilitating its release to the world under appropriate open source license(s).
 
