@@ -3,8 +3,6 @@ layout: article
 title: "License"
 excerpt: "License information for OpenVnmrJ"
 ---
-OpenVnmrJ Copyright 2015 University of Oregon
-
 LICENSE
 
 This work is consists of the main OpenVnmrJ project, licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. 
@@ -27,10 +25,7 @@ License: GPLv3  http://www.gnu.org/licenses/gpl-3.0-standalone.html
 <copyright holders> = University of Oregon and other Xrecon contributors
 Any part of this work that is linked to the GSL or other GPL license library is licensed under the GPLv3.
 
-
 --------------------------------------------------------------------------------------------------------------------------
 
 For additional copies of the licenses, see APACHE LICENCE and GPL LICENSE files in this repository.
-
-
 
