@@ -1,4 +1,9 @@
-# Background
+---
+layout: page
+title: Background
+excerpt: "History of the OpenVnmrJ project."
+image:
+---
 
 On October 14, 2014, Agilent Technologies, Inc., announced that it would close its NMR (Nuclear Magnetic Resonance) business.
 
