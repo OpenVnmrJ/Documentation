@@ -9,7 +9,6 @@ excerpt: "Instructions on how to contribute to the OpenVnmrJ project."
 
 ### Low barrier of entry
 
-
 We strive for a low barrier of entry to the project. This is partly achieved by not requiring new contributors to “prove themselves” before they are admitted to the "committership" (or soe other honorific).  Instead, we assume that all contributors are good until proven otherwise, and this principle applies to anybody without arbitrary discrimination. We recognize that every contribution is precious, and we recognize that every added process turns away some potential contributors.
 
 The lower barrier of entry is partly achieved by separating the project into "core", "appdirs" (groups of pulse programs, macros, & templates), documentation, and other independent pieces, thereby reducing the need for extended collaboration and communication. We try to let everyone choose their own turf where they can work efficiently without bogged down by too many discussions and compromises.
@@ -34,7 +33,7 @@ The use of modules, called applications directories (or "appdirs"), is strongly 
 
 ## How to join this project
 
-See the document How to Join.md for more details. 
+See the document [How to Join.md](How to Join.md) for more details.  
 
 _td;dr: Before submitting any code or other contribution, you must sign a license with the University of Oregon._
 
@@ -83,6 +82,10 @@ If you have a significantly new feature or a very large number of files and chan
 * Remember to submit your Pull Request to the development branch and not master
 
 ### Git workflow
+
+We will have a UI for OpenVnmrJ such that users will be able to install and submit 
+contributions as appdirs to OpenVnmrJ. This is technical and for users who want ore
+control over their submissions or are interested in changing the core of OpenVnmrJ.
 
 _This is a public repository._
 
