@@ -6,6 +6,7 @@ excerpt: "Instructions on how to contribute to the OpenVnmrJ project."
 {% include toc.html %}
 
 #Our Philosophy#
+
 ##Low barrier of entry##
 
 We strive for a low barrier of entry to the project. This is partly achieved by not requiring new contributors to “prove themselves” before they are admitted to the "committership" (or soe other honorific).  Instead, we assume that all contributors are good until proven otherwise, and this principle applies to anybody without arbitrary discrimination. We recognize that every contribution is precious, and we recognize that every added process turns away some potential contributors.
