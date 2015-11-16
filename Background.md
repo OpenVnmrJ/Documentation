@@ -5,7 +5,7 @@ excerpt: "History of the OpenVnmrJ project."
 ---
 ## Background
 
-On October 14, 2014, Agilent Technologies, Inc., announced that it would close its NMR (Nuclear Magnetic Resonance) business.
+On October 14, 2014, Agilent Technologies, Inc., announced that it would close its NMR (Nuclear Magnetic Resonance) and MRI (Magnetic Resonance Imaging) businesses.
 
 In an Open Letter to the NMR Community from Agilent on June 5, 2015, Agilent offered to provide free licensing of VnmrJ 4.2 for all applications, including the DOSY and CRAFT options.
 
