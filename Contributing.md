@@ -6,7 +6,7 @@ excerpt: "Instructions on how to contribute to the OpenVnmrJ project."
 image:
   feature: sample-image-3.jpg
 ---
-{% include _toc.html %}
+{% include toc.html %}
 
 #Contributing#
 ##Our Philosophy##
