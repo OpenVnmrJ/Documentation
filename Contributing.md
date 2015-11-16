@@ -3,7 +3,6 @@ layout: article
 title: Contributing
 excerpt: "Instructions on how to contribute to the OpenVnmrJ project."
 ---
-
 {% include toc.html %}
 
 ## Our Philosophy
