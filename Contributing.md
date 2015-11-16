@@ -3,6 +3,7 @@ layout: article
 title: Contributing
 excerpt: "Instructions on how to contribute to the OpenVnmrJ project."
 ---
+
 {% include toc.html %}
 
 ## Our Philosophy
@@ -71,7 +72,7 @@ OVJ code is developed on two main branches; see http://nvie.com/posts/a-successf
 
 OVJ uses Appdirs; modular code that resides in "Application Directories" and can be optionally loaded at run-time to reconfigure the UI, pulse sequences, macros, etc. If a new feature can be implemented via a Appdir without changes to the Core OVJ code, this is greatly preferable.
 
-If you have minor features to add or changes to existing macros, templates, or pulse sequences, please put this work in the "develop" Appdir ("/common/develop"). When a new release of OVJ is made, the "develop" Appdir will be merged into a release Appdir.
+If you have minor features to add or changes to existing macros, templates, or pulse sequences, please put this work in the "develop" Appdir ("openvnmrj-develop"). When a new release of OVJ is made, the "develop" Appdir will be merged into a release Appdir.
 
 If you have a significantly new feature or a very large number of files and changes, you should make your own new, separate Appdir (with its own name) in the Development branch of the OVJ code.
 
