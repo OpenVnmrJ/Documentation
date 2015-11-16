@@ -146,6 +146,6 @@ In your local repository
 
 ### The future
 
-We will work on making this transparent to users int he following cases:  
+We will work on making this transparent to users in the following cases:  
 1. Submitting pulse sequences
 2. Submitting macros
