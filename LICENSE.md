@@ -31,4 +31,3 @@ Any part of this work that is linked to the GSL or other GPL license library is 
 
 For additional copies of the licenses, see APACHE LICENCE and GPL LICENSE files in this repository.
 
-
