@@ -3,25 +3,26 @@ layout: article
 title: Background
 excerpt: "History of the OpenVnmrJ project."
 ---
+Background:
 
 On October 14, 2014, Agilent Technologies, Inc., announced that it would close its NMR (Nuclear Magnetic Resonance) business.
 
 In an Open Letter to the NMR Community from Agilent on June 5, 2015, Agilent offered to provide free licensing of VnmrJ 4.2 for all applications, including the DOSY and CRAFT options.
 
-At the request by many members of the NMR Community, Agilent also agreed to release the source code of VnmrJ 4.2 as "open source" by transfer of the copyright to an appropriate institutional recipient.  The University of Oregon agreed to assume this role.  On October 5, 2015, Agilent officials signed the transfer agreement, which was fully executed by the University of Oregon on October --, 2015.
+At the request by many members of the NMR Community, Agilent also agreed to release the source code of VnmrJ 4.2 as "open source" by transfer of the copyright to an appropriate institutional recipient.  The University of Oregon agreed to assume this role.  On October 5, 2015, Agilent officials signed the transfer agreement, which was fully executed by the University of Oregon on October 8, 2015.
 
-The open source version of VnmrJ will be known as "OpenVnmrJ", and is a derivative of VnmrJ Version 4.2. The NMR community is indebted to Agilent, and in particular to Dan Iverson, for investing considerable effort in adapting the code of VnmrJ 4.2 for open source use. OpenVnmrJ is fully functional, suitable for use with all spectrometer systems supported by VnmrJ 4.2 and as a free-standing data application. A copy of Agilent's VnmrJ 4.2 is required to be previously installed for console firmware.
+The open source version of VnmrJ will be known as "OpenVnmrJ", and is a derivative of VnmrJ Version 4.2. The NMR community is indebted to Agilent, and in particular to Dan Iverson, for investing considerable effort in adapting the code of VnmrJ 4.2 for open source use. OpenVnmrJ is fully functional, suitable for use with all spectrometer systems supported by VnmrJ 4.2, and as a free-standing data application. However, users of OpenVnmrJ should be aware that installing and using it may limit your support options from Agilent -- it is recommended that you retain copies of the version(s) of VnmrJ you obtained from Agilent for this purpose.
 
-While Agilent retain the rights to VnmrJ 4.2 (and previous versions of VnmrJ), title to OpenVNMRJ is now owned by the University of Oregon. 
+While Agilent retains the rights to VnmrJ 4.2 (and previous versions of VnmrJ), title to OpenVNMRJ is now owned by the University of Oregon. 
 
 University of Oregon contacts include:
 
->	Michael Strain, Director, CAMCOR NMR Facility,
+	Michael Strain, Director, CAMCOR NMR Facility,
 	University of Oregon
 	mstrain@uoregon.edu, 541-346-4605
 	(technical contact and liaison to VOSSG and NMR community)
 
->	Charles Williams, Associate Vice President for Innovation,
+	Charles Williams, Associate Vice President for Innovation,
 	University of Oregon crw@uoregon.edu 541-346-2028
 	(legal signatory & director of Technology Transfer office)
 
@@ -29,7 +30,7 @@ The University of Oregon accepts ownership/custody of the OpenVnmrJ code for the
 
 The University of Oregon acknowledges the external advisory body, the VnmrJ Open Source Steering Group (VOSSG), current members including:
 
->         Tim Burrow, University of Toronto
+        Tim Burrow, University of Toronto
         Dave Rice, Stanford University
         Eric Paulson, Yale University
         Scott Burt, Brigham Young University
@@ -49,9 +50,7 @@ The University of Oregon acknowledges the external advisory body, the VnmrJ Open
         Vince Stoyanov, Agilent
 
 
-VOSSG will assist in determining the appropriate licensing terms for release of the code to the world, any additional licensing terms for contributors, and any other ground rules/expectations.
+VOSSG will assist in determining the appropriate licensing terms for release of the code to the world, any additional licensing terms for contributors, and any other ground rules/expectations. Current members of VOSSG shall determine any additions or changes to VOSSG membership.
 
-VOSSG will take primary responsibility for maintaining the code and for any modifications, via the "github" website mechanism.
-
-The University of Oregon Technology Transfer is launching a web licensing portal (fall 2015) that will facilitate issuing licenses for contributors, etc.
+VOSSG will also take primary responsibility for maintaining the code, documentation, and for any modifications to OpenVnmrJ, via the OpenVnmrJ project on GitHub and/or any other method chosen by VOSSG.
 
