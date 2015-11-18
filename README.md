@@ -16,27 +16,32 @@ OpenVnmrJ is designed to be very extensible with:
 - A comprehensive library of pulse programs, written in C, usually with macros and XML files to ease setting up experiments and processing data
 - All these are open sourced and can use help to maintain code, fix bugs, add new features, and improve the user experience for all uses of OpenVnmrJ.
 
-##Using this repository
+### Using this repository
+
 This repository is for people that want to download, compile, fix and contribute back to the community. 
 
 If you only want to download and run OpenVnmrJ, you should get a pre-built archive and install a local copy. See [Downloading](Downloading.md) for more information.
 
-### Spectrometer users, read this 
-** Do not delete the Agilent supplied VnmrJ on your spectrometer **  
+### Spectrometer users, read this
+
+* ** Do not delete the Agilent supplied VnmrJ on your spectrometer **
 * Agilent service requires VnmrJ 4.2
 * The spectrometer console software is NOT open sourced
 * If a copy of VnmrJ 4.2 is found during installation, the spectrometer acquisition components will be copied into OpenVnmrJ
 
-
 ### Contributing
+
 See the file [Contributing.md](Contributing.md) to get started.
 
 ### Owner 
+
 The University of Oregon ("University of Oregon" or "UO") legally owns the project copyright and other assets. 
 
 ### License
+
 Most of the code and documentation are licensed under the Apache 2.0 license, but some subcomponents use other licenses.
 See the [License.md](License.md) file for more information.
 
 ### Disclaimer
+
 To the fullest extent allowed by law, the work is provided "as-is" with no warrantees whatsoever, either expressed or implied, oral or written. Agilent and UO specifically disclaim any warrantees of merchantability or fitness for a particular purpose. This work is not a manufacturer's release version and its use may limit your support options from the original manufacturer of your equipment.
