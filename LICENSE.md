@@ -3,6 +3,8 @@ layout: article
 title: "License"
 excerpt: "License information for OpenVnmrJ"
 ---
+OpenVnmrJ Copyright 2015 University of Oregon
+
 LICENSE
 
 This work is consists of the main OpenVnmrJ project, licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. 
