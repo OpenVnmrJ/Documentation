@@ -15,7 +15,7 @@ The open source version of VnmrJ will be known as "OpenVnmrJ", and is a derivati
 
 While Agilent retains the rights to VnmrJ 4.2 (and previous versions of VnmrJ), title to OpenVNMRJ is now owned by the University of Oregon. 
 
-University of Oregon contacts include:
+University of Oregon contacts are:
 
 	Michael Strain, Director, CAMCOR NMR Facility,
 	University of Oregon
