@@ -6,21 +6,28 @@ excerpt: "How to join this project"
 ## How to join the project
 
 ### Communication
+
 Communication is important. We use Spinsights, Basecamp, and Github. Get free accounts and look for OpenVnmrJ. OpenVnmrJ has a presence on Trello and Slack but most planning is done in Basecamp.
 
 #### Spinsights
+
 Spinsights is Agilent's NMR and MRI support board, which is availabe at https://spinsights.chem.agilent.com. Please ask questions and provide feedback throught Spinsights
 
+<<<<<<< 3665f2474c5e362e63143f005ccfa806c6127e34
 #### Basecamp
+
 Hosted by Eric Paulson at Yale, OpenVnmrJ is using basecamp for planning and project management. 
 
 #### Github
+
 The repositories, documentation, and bug tracking are hosted on GitHub [OpenVnmrJ]<https://github.com/OpenVnmrJ>
 
 #### Slack
+
 Join Slack for free. Ping us at [OpenVnmrJ]<https://openvnmrj.slack.com/> Basecamp is preferred.
 
 #### Trello
+
 Check out the planning board on [Trello]<https://trello.com/openvnmrj> Basecamp is preferred.
 
 In case of doubt, open an issue in the issue tracker (on Github), post your question to the spinsights/trello/slack or contact one of the project maintainers on Slack.
@@ -36,7 +43,6 @@ One is not required to have a proven history of contributions before being grant
 
 The list of CLA signers is be maintained here: 
 [TODO]
-
 
 ### Bringing in new plugins/tools/libraries/appdirs
 
