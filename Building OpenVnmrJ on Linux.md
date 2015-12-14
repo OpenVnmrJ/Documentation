@@ -1,3 +1,8 @@
+---
+layout: article
+title: Building OVJ on Linux
+excerpt: "Building OVJ on Linux."
+---
 # Building OVJ on Linux
 
 See README.ovj

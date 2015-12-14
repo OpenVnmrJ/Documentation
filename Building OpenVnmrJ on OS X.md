@@ -1,3 +1,8 @@
+---
+layout: article
+title: Building OVJ on OS X
+excerpt: "Building OVJ on OS X."
+---
 # Building OVJ on OS X
 
 This has been tested using gcc5.2 from https://github.com/timburrow/gcc-5.2-OSX.
@@ -29,7 +34,7 @@ sudo tar jxf gcc5.2-osx-usrlocal.tar.bz2 -C /
 ```
 export PATH=/usr/local/bin:${PATH} # if not on path already
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
-# Make vjbuild directory and put ovj into it
+# Make vjbudatastaionild directory and put ovj into it
 mkdir ~/Documents/vjbuild
 cd ~/Documents/vjbuild/ 
 unzip ovj5.zip
@@ -55,17 +60,17 @@ cp -a ./git-repo/src/scripts/buildovj .
 total 0
 drwxr-xr-x  3 timburrow  staff  102  5 Oct 10:21 Package_contents
 drwxr-xr-x  4 timburrow  staff  136  5 Oct 10:21 install_resources
-```
+```Building OVJ on Linux
  
 ## Watchouts ##
  
  1. Some solidspack pulse sequences are different in case only; some macros and .c and .xml files will be overwritten when expanding the zip archive
 
 ## Build OVJ ##
-
+Building OVJ on Linux
 This is the buildovj file I used
 
-```
+```datastaion
 
 #! /bin/sh
 #
