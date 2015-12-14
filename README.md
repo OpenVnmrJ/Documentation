@@ -17,7 +17,6 @@ OpenVnmrJ is designed to be very extensible with:
 - All these are open sourced and can use help to maintain code, fix bugs, add new features, and improve the user experience for all uses of OpenVnmrJ.
 
 ##Using this repository
-=======
 
 This repository is for people that want to download, compile, fix and contribute back to the community. 
 
@@ -33,12 +32,15 @@ If you only want to download and run OpenVnmrJ, you should get a pre-built archi
 
 
 ### Contributing
+
 See the file [Contributing.md](Contributing.md) to get started.
 
 ### Owner 
+
 The University of Oregon ("University of Oregon" or "UO") legally owns the project copyright and other assets. 
 
 ### License
+
 Most of the code and documentation are licensed under the Apache 2.0 license, but some subcomponents use other licenses.
 See the [License.md](License.md) file for more information.
 
