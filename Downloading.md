@@ -23,7 +23,7 @@ OVJ is tested and runs on these Linux systems:
  * CentOS 6
  * Ubuntu 14.04 (Trusty Tahr)
  
-OVJ runs as a datastaion on OS X.
+OVJ runs as for processing only on OS X.
 
 ## Getting the release ##
 
@@ -32,6 +32,7 @@ TODO!
 ##Disclaimer##
 
 **Do not delete the Agilent supplied VnmrJ on your spectrometer**
+
 * Agilent service requires VnmrJ 4.2
 * The spectrometer console software is NOT open sourced
 
