@@ -70,10 +70,10 @@ drwxr-xr-x  4 timburrow  staff  136  5 Oct 10:21 install_resources
  1. Some solidspack pulse sequences are different in case only; some macros and .c and .xml files will be overwritten when expanding the zip archive
 
 ## Build OVJ ##
-
+Building OVJ on OS X
 This is the buildovj file I used
 
-```datastaion
+```datastation
 
 #! /bin/sh
 #
