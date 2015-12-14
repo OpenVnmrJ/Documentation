@@ -6,6 +6,7 @@ permalink: building-on-linux.html
 ---
 ## Building OVJ on Linux
 
+
 See README.ovj
 v0.3
 11 September 2015
@@ -14,7 +15,7 @@ v0.3
 ### BUILD REQUIREMENTS
 
 
-###EL6 (RHEL/CentOS 6)
+### EL6 (RHEL/CentOS 6)
 The minimum package requirement for EL6 assumes that your system was installed with the
 "Software Development Workstation" package selection as required by VnmrJ.  This build
 configuration has been tested on CentOS 6.6 but should work for any RHEL or CentOS 6.x.
@@ -25,7 +26,7 @@ yum install compat-gcc-34-g77 glibc-devel.i686 libstdc++.i686 libX11-devel.i686 
 Optionally, you can also install gsl-devel and libtiff-devel if you wish to compile using the GNU
 scientific library.  Code compiled with the GSL will be subject to license restrictions.
 
-###Ubuntu Trusty Tahr 14.04 LTS
+### Ubuntu Trusty Tahr 14.04 LTS
 The minimum package requirement for Ubuntu Trusty Tahr 14.04 LTS assumes that you have
 installed the standard desktop edition of Ubuntu.  A minimal install may require additional
 packages including but not limited to make, unzip and zip.  This build configuration has been
