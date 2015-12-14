@@ -6,6 +6,7 @@ excerpt: "How to join this project"
 ## How to join the project
 
 ### Communication
+
 Communication is important. We use Spinsights, Basecamp, and Github. Get free accounts and look for OpenVnmrJ. OpenVnmrJ has a presence on Trello and Slack but most planning is done in Basecamp.
 
 #### Spinsights
@@ -21,6 +22,7 @@ The repositories, documentation, and bug tracking are hosted on GitHub [OpenVnmr
 Join Slack for free. Ping us at [OpenVnmrJ]<https://openvnmrj.slack.com/> Basecamp is preferred.
 
 #### Trello
+
 Check out the planning board on [Trello]<https://trello.com/openvnmrj> Basecamp is preferred.
 
 In case of doubt, open an issue in the issue tracker (on Github), post your question to the spinsights/trello/slack or contact one of the project maintainers on Slack.
@@ -62,7 +64,7 @@ don’t let that block your progress. The seniority of the developers are
 earned through on-going participation.
 
 
-##Helping and taking over dormant appdirs/pulse sequences/macros##
+### Helping and taking over dormant appdirs/pulse sequences/macros
 
 It is often the case that the original developer moves onto other 
 things once the code becomes good enough for them (or if the original 
@@ -106,15 +108,17 @@ Slack to get commit access, and see Internationalization for the details of how 
 
 See "Contributing.md" for nitty-gritty details on how to submit to the core of OpenVnmrJ. See below for some guidance.
 
-## Rebase before merging
+### Rebase before merging
+
 The merge commits should make good sense to the history of the project. Do not commit branches that are full of git commits. Please rebase and commit a clean branch.
 
 ### Cherry picking
+
 Cherry pick across a branch to add need functionality quickly. 
 
 ### Code review
-At least two people should read through each commit. Large commits are difficult and take a long time to code review, so commit smaller chunks. Lets core committers know if a large commit is coming, and let them know well in advance, perhaps before you start!
 
+At least two people should read through each commit. Large commits are difficult and take a long time to code review, so commit smaller chunks. Lets core committers know if a large commit is coming, and let them know well in advance, perhaps before you start!
 
 ### Using pull requests
 
@@ -134,7 +138,7 @@ future developers to understand how the code came into the current shape. This i
 
 * If you notice that your pull requests aren’t getting attended to within a week or two, please drop us a note in Slack, and please consider becoming a committer and push the changes directly. See Pull Request to Repositories for more.
 
-###Copying Code from elsewhere
+### Copying Code from elsewhere
 
 When you have a license to do so, and when that license is compatible with the Apache 2.0 license, you can copy the code from elsewhere into OpenVnmrJ.
 
