@@ -110,8 +110,7 @@ git pull
 ```
 Present-tense summary under 50 characters
 
-* More information about commit (under 72 characters).
-* More information about commit (under 72 characters).
+* More information about commit (under 72 characters)
 
 [PROJECT TICKET]
 ```
@@ -140,6 +139,7 @@ The GitHub UI can be used. Review the changes and
 
 Delete your feature branch once done with it  
 On your fork on github  
+
 `git push origin --delete <branch-name>`
 In your local repository  
 `git branch --delete <branch-name>`
@@ -149,3 +149,8 @@ In your local repository
 We will work on making this transparent to users in the following cases:  
 1. Submitting pulse sequences
 2. Submitting macros
+
+## VnmrJ macros and Appdirs
+
+To make this process easier, we will divide the source into repositories and use VnmrJ macros. This is a work in progress.
+

@@ -34,8 +34,7 @@ In case of doubt, open an issue in the issue tracker (on Github), post your ques
 
 Especially do so if you plan to work on something big. Nothing is more frustrating than seeing your hard work go to waste because your commit is very large and unwieldy.
 
-##Core committers##
-[I think the NodeJS method is better—a pull request from a core committer has to be reviewed by one other core committer]
+### Core committers
 
 Core committers are those who have push access to the main OpenVnmrJ repository that produces OpenVnmrJ. To become a core committer, one needs to sign the contributor license agreement.
  
@@ -44,7 +43,7 @@ One is not required to have a proven history of contributions before being grant
 The list of CLA signers is be maintained here: 
 [TODO]
 
-### Bringing in new plugins/tools/libraries/appdirs
+### Contributing new plugins/tools/libraries/appdirs
 
 If you develop a plugin/tool/library/appdir, we encourage you to co-host that with the 
 OpenVnmrJ project so that other people in the community can participate. 
@@ -67,8 +66,7 @@ them heads-up and coordinating with them, but if they aren’t responding,
 don’t let that block your progress. The seniority of the developers are
 earned through on-going participation.
 
-
-##Helping and taking over dormant appdirs/pulse sequences/macros##
+### Helping and taking over dormant appdirs/pulse sequences/macros
 
 It is often the case that the original developer moves onto other 
 things once the code becomes good enough for them (or if the original 
@@ -112,13 +110,16 @@ Slack to get commit access, and see Internationalization for the details of how 
 
 See "Contributing.md" for nitty-gritty details on how to submit to the core of OpenVnmrJ. See below for some guidance.
 
-## Rebase before merging
+### Rebase before merging
+
 The merge commits should make good sense to the history of the project. Do not commit branches that are full of git commits. Please rebase and commit a clean branch.
 
 ### Cherry picking
+
 Cherry pick across a branch to add need functionality quickly. 
 
 ### Code review
+
 At least two people should read through each commit. Large commits are difficult and take a long time to code review, so commit smaller chunks. Lets core committers know if a large commit is coming, and let them know well in advance, perhaps before you start!
 
 
