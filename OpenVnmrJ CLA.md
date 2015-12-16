@@ -1,4 +1,4 @@
-###OpenVnmrJ Individual Contributor License Agreement
+### OpenVnmrJ Individual Contributor License Agreement
 
 Thank you for your interest in contributing to the OpenVnmrJ project and its subprojects (“Projects”) made available by the University of Oregon or its affiliates (“UO”). This Individual Contributor License Agreement (“Agreement”) sets out the terms governing any source code, object code, bug fixes, configuration changes, tools, specifications, documentation, data, materials, feedback, information or other works of authorship that you submit or have submitted, in any form and in any manner, to UO in respect of any of the Projects (collectively “Contributions”). If you have any questions respecting this Agreement, please contact a member of the VnmrJ Open Source Steering Group (VOSSG). VOSSG contact information is available at http://www.openvnmrj.org.
 

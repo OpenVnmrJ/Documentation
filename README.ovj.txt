@@ -14,7 +14,7 @@ The minimum package requirement for EL6 assumes that your system was installed w
 "Software Development Workstation" package selection as required by VnmrJ.  This build
 configuration has been tested on CentOS 6.6 but should work for any RHEL or CentOS 6.x.
 
-yum install compat-gcc-34-g77 glibc-devel.i686 libstdc++.i686 libX11-devel.i686 libXt-devel.i686 openmotif-devel.i686 scons
+`yum install compat-gcc-34-g77 glibc-devel.i686 libstdc++.i686 libX11-devel.i686 libXt-devel.i686 openmotif-devel.i686 scons`
 
 Optionally, you can also install gsl-devel and libtiff-devel if you wish to compile using the GNU
 scientific library.  Code compiled with the GSL will be subject to license restrictions.
@@ -24,7 +24,7 @@ The minimum package requirement for Ubuntu Trusty Tahr 14.04 LTS assumes that yo
 installed the standard desktop edition of Ubuntu.  This build configuration has been
 tested on Ubuntu but should work for any *buntu Trusty Tahr 14.04 LTS distribution.
 
-sudo apt-get install fort77 g++ lib32stdc++-4.8-dev libc6-dev-i386 libmotif-dev:i386 libx11-dev:i386 libxt-dev:i386 scons
+`sudo apt-get install fort77 g++ lib32stdc++-4.8-dev libc6-dev-i386 libmotif-dev:i386 libx11-dev:i386 libxt-dev:i386 scons`
 
 Optionally, you can also install libgsl0-dev and libtiff5-dev if you wish to compile 
 components using the GNU scientific library.  Code compiled with the GSL will be subject
@@ -81,8 +81,10 @@ optional software and code that is used during installation.
 You can also change into specific directories in src and run scons. That will build that
 specific program. For example,
 
+```
 cd src/vnmrbg
 scons
+```
 
 will build only the Vnmrbg program.  Note that this preliminary version of OpenVnmrJ has the
 go, dps, and svf commands of Vnmrbg disabled.
@@ -90,7 +92,7 @@ go, dps, and svf commands of Vnmrbg disabled.
 The src directory has a number of subdirectories. In general, each subdirectory corresponds to one
 or more programs that need to be compiled. Some of the subdirectories contain code that is shared
 by several programs. The src directory contains the following subdirectories.
-
+```
 3D          Code for compressfid, ft3d, getplane
 acqproc     Shared files
 aip         Shared files used by vnmrbg. (aip -> advanced image processing)
@@ -125,9 +127,9 @@ vnmrj       Currently shared files
 vobj        Shared files
 vwacq       Shared files with Inova console software
 xracq       Shared files with VXR console software
-
+```
 New since last version:
-
+```
 admin       VnmrJ installer java program 
 apt         Auto ProTune java program
 aslmirtime  Imaging program (requires GPL license)
@@ -170,7 +172,7 @@ vjmol       Auxiliary java program to connect jmol with vnmrj
 web         Programs to support tablet
 vnmrj       vnmrj java program (requires GPL license)
 xrecon      Imaging reconstruction program (requires GPL license)
-
+```
 
 APPENDIX
 ========
@@ -178,7 +180,7 @@ APPENDIX
 EL6 (RHEL/CentOS 6)
 Full list of required packages for EL 6 starting from a "Software Development Workstation"
 configuration:
-
+```
 compat-gcc-34
 compat-gcc-34-g77
 compat-libf2c-34
@@ -210,17 +212,17 @@ openmotif.i686
 openmotif-devel.i686
 scons
 zlib.i686  
-
+```
 And optionally:
-
+```
 gsl
 gsl-devel
 libtiff-devel
-
+```
 Ubuntu Trusty Tahr 14.04 LTS
 Full list of required packages for Ubuntu Trusty Tahr 14.04 LTS starting from a standard
 desktop edition installation:
-
+```
 f2c
 fort77
 g++
@@ -296,9 +298,9 @@ x11proto-kb-dev
 xorg-sgml-doctools
 xtrans-dev
 zlib1g:i386
-
+```
 And optionally:
-
+```
 libgsl0-dev
 libgsl0ldbl
 libjbig-dev
@@ -309,3 +311,4 @@ liblzma-dev
 libtiff5-dev
 libtiffxx5
 zlib1g-dev
+```
