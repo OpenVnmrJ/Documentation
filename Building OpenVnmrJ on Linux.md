@@ -3,14 +3,14 @@ layout: article
 title: Building OVJ on Linux
 excerpt: "Building OVJ on Linux."
 ---
-# Building OVJ on Linux
+## Building OVJ on Linux
 
 See README.ovj
 v0.3
 11 September 2015
 *Dan Iverson & John Ryan*
 
-## BUILD REQUIREMENTS
+### BUILD REQUIREMENTS
 
 
 ###EL6 (RHEL/CentOS 6)
@@ -39,7 +39,7 @@ to license restrictions.
 Full package requirements including dependent packages are listed in the appendix of
 this document.
 
-## INSTALLATION & COMPILATION
+### INSTALLATION & COMPILATION
 
 Make a directory. Lets call it ovjbuild.  unzip the source code file inside that directory.
 It will add a git-repo. The git-repo directory contains the following directories and files.

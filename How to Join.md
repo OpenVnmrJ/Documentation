@@ -3,24 +3,24 @@ layout: article
 title: How to join this project
 excerpt: "How to join this project"
 ---
-#How to join the project#
+## How to join the project
 
-##Communication##
+### Communication
 Communication is important. We use Spinsights, Basecamp, and Github. Get free accounts and look for OpenVnmrJ. OpenVnmrJ has a presence on Trello and Slack but most planning is done in Basecamp.
 
-###Spinsights###
+#### Spinsights
 Spinsights is Agilent's NMR and MRI support board, which is availabe at https://spinsights.chem.agilent.com. Please ask questions and provide feedback throught Spinsights
 
-##Basecamp##
+#### Basecamp
 Hosted by Eric Paulson at Yale, OpenVnmrJ is using basecamp for planning and project management. 
 
-###Github###
+#### Github
 The repositories, documentation, and bug tracking are hosted on GitHub [OpenVnmrJ]<https://github.com/OpenVnmrJ>
 
-###Slack###
+#### Slack
 Join Slack for free. Ping us at [OpenVnmrJ]<https://openvnmrj.slack.com/> Basecamp is preferred.
 
-###Trello###
+#### Trello
 Check out the planning board on [Trello]<https://trello.com/openvnmrj> Basecamp is preferred.
 
 In case of doubt, open an issue in the issue tracker (on Github), post your question to the spinsights/trello/slack or contact one of the project maintainers on Slack.
@@ -38,13 +38,13 @@ The list of CLA signers is be maintained here:
 [TODO]
 
 
-##Bringing in new plugins/tools/libraries/appdirs##
+### Bringing in new plugins/tools/libraries/appdirs
 
 If you develop a plugin/tool/library/appdir, we encourage you to co-host that with the 
 OpenVnmrJ project so that other people in the community can participate. 
 See Hosting Appdirs for more details.
 
-##Making changes to existing appdirs/macros/pulse sequences##
+### Making changes to existing appdirs/macros/pulse sequences
 
 If you are interested in just making a small number of changes 
 without an intent to stay. It’s the easiest to send in pull requests 
@@ -81,7 +81,7 @@ they are collaboratively maintained by people making small changes and
 releasing them whenever the need arises.  If in doubt, ask on the dev 
 list.
 
-##Making changes to core code##
+### Making changes to core code
 
 If you are interested in just making small changes without an intent 
 to stay, the same process applies as macros and pulse sequences, described above. However, because core changes affect larger number of people, we’d be grateful if you’d try to go extra distance on the notes described in using pull requests.
@@ -96,27 +96,27 @@ your changes with the developers upfront. Or if you see that the part
 you’d like to work on has been actively modified by others, give them a 
 heads-up.
 
-##Contributing localizations##
+### Contributing localizations
 
 We are always looking for people who can help localize OpenVnmrJ to 
 different languages. If you are interested in helping, drop us a note in
 Slack to get commit access, and see Internationalization for the details of how to make changes.
 
-#Contributing
+## Contributing
 
 See "Contributing.md" for nitty-gritty details on how to submit to the core of OpenVnmrJ. See below for some guidance.
 
-##Rebase before merging##
+## Rebase before merging
 The merge commits should make good sense to the history of the project. Do not commit branches that are full of git commits. Please rebase and commit a clean branch.
 
-##Cherry picking##
+### Cherry picking
 Cherry pick across a branch to add need functionality quickly. 
 
-##Code review##
+### Code review
 At least two people should read through each commit. Large commits are difficult and take a long time to code review, so commit smaller chunks. Lets core committers know if a large commit is coming, and let them know well in advance, perhaps before you start!
 
 
-##Using pull requests##
+### Using pull requests
 
 As discussed above, OpenVnmrJ project uses pull requests as one of the 
 main workflow to get the changes in. When you prepare your pull request,
@@ -134,8 +134,7 @@ future developers to understand how the code came into the current shape. This i
 
 * If you notice that your pull requests aren’t getting attended to within a week or two, please drop us a note in Slack, and please consider becoming a committer and push the changes directly. See Pull Request to Repositories for more.
 
-##Copying Code from elsewhere##
-Copying code from elsewhere
+###Copying Code from elsewhere
 
 When you have a license to do so, and when that license is compatible with the Apache 2.0 license, you can copy the code from elsewhere into OpenVnmrJ.
 
