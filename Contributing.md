@@ -124,19 +124,24 @@ Present-tense summary under 50 characters
 See https://sandofsky.com/blog/git-workflow.html for a background on git workflow. See also https://github.com/thoughtbot/guides/blob/master/protocol/git/README.md for another workflow.
 
 ### Branches
-`git checkout -b "my feature"`
-See https://www.atlassian.com/git/tutorials/using-branches/git-checkout on how to make a branch and use branches
-See http://nvie.com/posts/a-successful-git-branching-model/ for how this applies to a real project
+`git checkout -b "my feature"`  
+See https://www.atlassian.com/git/tutorials/using-branches/git-checkout on how to make a branch and use branches  
+See http://nvie.com/posts/a-successful-git-branching-model/ for how this applies to a real project  
 
 ### Git pulls
-See https://help.github.com/articles/using-pull-requests/
-“Fork and pull” model is good for this project (when there are more contributors).
-The GitHub UI can be used. Review the changes and
+See https://help.github.com/articles/using-pull-requests/  
+“Fork and pull” model is good for this project (when there are more contributors).  
+The GitHub UI can be used. Review the changes and  
 `git merge --no-ff development`
 
 ## Delete your feature branch
-Delete your feature branch once done with it
-On your fork on github
+Delete your feature branch once done with it  
+On your fork on github  
 `git push origin --delete <branch-name>`
-In your local repository
+In your local repository  
 `git branch --delete <branch-name>`
+
+## The future
+We will work on making this transparent to users int he following cases:  
+1. Submitting pulse sequences
+2. Submitting macros
