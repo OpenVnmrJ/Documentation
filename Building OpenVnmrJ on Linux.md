@@ -2,6 +2,7 @@
 layout: article
 title: Building OVJ on Linux
 excerpt: "Building OVJ on Linux."
+permalink: building-on-linux.html
 ---
 ## Building OVJ on Linux
 
