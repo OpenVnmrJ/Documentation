@@ -22,14 +22,13 @@ The repositories, documentation, and bug tracking are hosted on GitHub [OpenVnmr
 Join Slack for free. Ping us at [OpenVnmrJ]<https://openvnmrj.slack.com/> Basecamp is preferred.
 
 #### Trello
-
 Check out the planning board on [Trello]<https://trello.com/openvnmrj> Basecamp is preferred.
 
 In case of doubt, open an issue in the issue tracker (on Github), post your question to the spinsights/trello/slack or contact one of the project maintainers on Slack.
 
 Especially do so if you plan to work on something big. Nothing is more frustrating than seeing your hard work go to waste because your commit is very large and unwieldy.
 
-##Core committers##
+## Core committers
 [I think the NodeJS method is better—a pull request from a core committer has to be reviewed by one other core committer]
 
 Core committers are those who have push access to the main OpenVnmrJ repository that produces OpenVnmrJ. To become a core committer, one needs to sign the contributor license agreement.
@@ -120,6 +119,7 @@ Cherry pick across a branch to add need functionality quickly.
 
 At least two people should read through each commit. Large commits are difficult and take a long time to code review, so commit smaller chunks. Lets core committers know if a large commit is coming, and let them know well in advance, perhaps before you start!
 
+<<<<<<< af6235774a695a0f06cd1435b5669d9860faa2dc
 ### Using pull requests
 
 As discussed above, OpenVnmrJ project uses pull requests as one of the 
