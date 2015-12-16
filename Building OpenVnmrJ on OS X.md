@@ -2,6 +2,7 @@
 layout: article
 title: Building OVJ on OS X
 excerpt: "Building OVJ on OS X."
+permalink: building-on-osx.html
 ---
 ## Building OVJ on OS X
 
