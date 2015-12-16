@@ -5,9 +5,9 @@ excerpt: "Instructions on how to contribute to the OpenVnmrJ project."
 ---
 {% include toc.html %}
 
-#Our Philosophy#
+## Our Philosophy
 
-##Low barrier of entry##
+### Low barrier of entry
 
 We strive for a low barrier of entry to the project. This is partly achieved by not requiring new contributors to “prove themselves” before they are admitted to the "committership" (or soe other honorific).  Instead, we assume that all contributors are good until proven otherwise, and this principle applies to anybody without arbitrary discrimination. We recognize that every contribution is precious, and we recognize that every added process turns away some potential contributors.
 
@@ -17,27 +17,27 @@ The lower barrier of entry is also partly achieved by recognizing that people mo
 
 Even users unfamiliar with code can contribute: install and run the development versions of OVJ, file bugs on github, let the developers know what features/fixes are important to you, suggest improvements, and join discussions
 
-##Meritocracy##
+### Meritocracy
 
 Our striving to a low barrier of entry doesn’t mean everyone has the equal voice. We value those who contribute more to the project, namely Meritocracy. Contribution shouldn’t be narrowly interpreted just as code changes, but rather it includes such activities as helping others in the OpenVnmrJ community, producing documentation, running infrastructure, and so on.
 
-##Transparency##
+### Transparency
 
 We believe in running the project transparently. This includes everything from decision-making to defects in the code.
 
-##Compatibility matters##
+### Compatibility matters
 
 We recognize that users expect their existing data, accumulated under past versions (including commercial versions) to continue working under future versions of OpenVnmrJ. This includes pulse sequences, macros, and spectrometer configurations that they are using. The OpenVnmrJ project places high value on maintaining this compatibility, and will be very careful in removing functionality.
 
 The use of modules, called applications directories (or "appdirs"), is strongly encouraged (if not mandatory) for adding any functionality that is large in scope. Also in this spirit, minimizing any needed changes to the "core" code for new features is strongly preferred.
 
-#How to join this project#
+## How to join this project
 
 See the document How to Join.md for more details. 
 
 _td;dr: Before submitting any code or other contribution, you must sign a license with the University of Oregon._
 
-#Technical details#
+## Technical details
 
 The github repository is https://github.com/OpenVnmrJ/ and only a documentation page exists at this time. Sign up for a free github account to access the repository. With github all changes are made offline and merged back in.
 
@@ -49,7 +49,7 @@ http://gitx.frim.nl
 
 On Ubuntu: sudo apt-get install gitk
 
-##Branch information##
+### Branch information
 
 OVJ code is developed on two main branches; see http://nvie.com/posts/a-successful-git-branching-model/
 
@@ -67,7 +67,7 @@ OVJ code is developed on two main branches; see http://nvie.com/posts/a-successf
 
 * Rebase from the latest development branch
 
-##Appdirs##
+### Appdirs
 
 OVJ uses Appdirs; modular code that resides in "Application Directories" and can be optionally loaded at run-time to reconfigure the UI, pulse sequences, macros, etc. If a new feature can be implemented via a Appdir without changes to the Core OVJ code, this is greatly preferable.
 
@@ -75,14 +75,13 @@ If you have minor features to add or changes to existing macros, templates, or p
 
 If you have a significantly new feature or a very large number of files and changes, you should make your own new, separate Appdir (with its own name) in the Development branch of the OVJ code.
 
-##Important tips##
+### Important tips
 
 * Always work from a feature branch. Since all code submissions will be through a Pull Request, feature branches isolate changes from one submission to another.
 * Always start your new branch from the development branch: `git checkout -b myfeature development`
 * Remember to submit your Pull Request to the development branch and not master
 
-
-##Git workflow##
+### Git workflow
 
 _This is for a public repository._
 
@@ -124,18 +123,18 @@ Present-tense summary under 50 characters
  
 See https://sandofsky.com/blog/git-workflow.html for a background on git workflow. See also https://github.com/thoughtbot/guides/blob/master/protocol/git/README.md for another workflow.
 
-##Branches##
+### Branches
 `git checkout -b "my feature"`
 See https://www.atlassian.com/git/tutorials/using-branches/git-checkout on how to make a branch and use branches
 See http://nvie.com/posts/a-successful-git-branching-model/ for how this applies to a real project
 
-##Git pulls##
+### Git pulls
 See https://help.github.com/articles/using-pull-requests/
 “Fork and pull” model is good for this project (when there are more contributors).
 The GitHub UI can be used. Review the changes and
 `git merge --no-ff development`
 
-# Delete your feature branch #
+## Delete your feature branch
 Delete your feature branch once done with it
 On your fork on github
 `git push origin --delete <branch-name>`
