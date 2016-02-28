@@ -27,10 +27,7 @@ License: GPLv3  http://www.gnu.org/licenses/gpl-3.0-standalone.html
 <copyright holders> = University of Oregon and other Xrecon contributors
 Any part of this work that is linked to the GSL or other GPL license library is licensed under the GPLv3.
 
-
 --------------------------------------------------------------------------------------------------------------------------
 
 For additional copies of the licenses, see APACHE LICENCE and GPL LICENSE files in this repository.
-
-
 

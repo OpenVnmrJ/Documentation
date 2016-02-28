@@ -9,7 +9,7 @@ excerpt: "Instructions on how to contribute to the OpenVnmrJ project."
 
 ### Low barrier of entry
 
-We strive for a low barrier of entry to the project. This is partly achieved by not requiring new contributors to “prove themselves” before they are admitted to the "committership" (or soe other honorific).  Instead, we assume that all contributors are good until proven otherwise, and this principle applies to anybody without arbitrary discrimination. We recognize that every contribution is precious, and we recognize that every added process turns away some potential contributors.
+We strive for a low barrier of entry to the project. This is partly achieved by not requiring new contributors to “prove themselves” before they are admitted to the "committership" (or some other honorific).  Instead, we assume that all contributors are good until proven otherwise, and this principle applies to anybody without arbitrary discrimination. We recognize that every contribution is precious, and we recognize that every added process turns away some potential contributors.
 
 The lower barrier of entry is partly achieved by separating the project into "core", "appdirs" (groups of pulse programs, macros, & templates), documentation, and other independent pieces, thereby reducing the need for extended collaboration and communication. We try to let everyone choose their own turf where they can work efficiently without bogged down by too many discussions and compromises.
 
@@ -20,6 +20,10 @@ Even users unfamiliar with code can contribute: install and run the development 
 ### Meritocracy
 
 Our striving to a low barrier of entry doesn’t mean everyone has the equal voice. We value those who contribute more to the project, namely Meritocracy. Contribution shouldn’t be narrowly interpreted just as code changes, but rather it includes such activities as helping others in the OpenVnmrJ community, producing documentation, running infrastructure, and so on.
+
+### Code of Conduct
+
+We expect all contributors to follow the [Code of Conduct](Code of Conduct.md). This code of conduct outlines our expectations for participants within the OpenVnmrJ community, as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all and expect our code of conduct to be honored. Anyone who violates this code of conduct may be banned from the community.
 
 ### Transparency
 
@@ -33,9 +37,9 @@ The use of modules, called applications directories (or "appdirs"), is strongly 
 
 ## How to join this project
 
-See the document How to Join.md for more details. 
+See the document [How to Join.md](How to Join.md) for more details.  
 
-_td;dr: Before submitting any code or other contribution, you must sign a license with the University of Oregon._
+_td;dr: Before submitting any code or other contribution, you must sign a license with the University of Oregon._ This is usually handled automatically when you make a pull request though the CLA Assistant service.
 
 ## Technical details
 
@@ -47,31 +51,25 @@ https://mac.github.com
 http://gitup.co/
 http://gitx.frim.nl
 
-On Ubuntu: sudo apt-get install gitk
+On Ubuntu: `sudo apt-get install gitk`
 
 ### Branch information
 
 OVJ code is developed on two main branches; see http://nvie.com/posts/a-successful-git-branching-model/
 
-* Master: This will produce the final compiled downloadable archives. It must be kept clean of bugs! Unless it is a critical bug-fix, no new code should be branched directly from Master. Master will be a protected branch and is regarded as "stable."
-
-* Development: This is the current working branch. To add new code or documentation to OVJ, create a feature branch (name it something descriptive) from the Development branch. When your feature branch is complete, make a pull request back into Development. Once Development is validated and tested, the code can be pushed into Master.
-
+* Master: This will produce the final compiled downloadable archives. It must be kept clean of bugs! Unless it is a critical bug-fix, no new code should be branched directly from Master. Master will be a protected branch and is regarded as "stable."  
+* Development: This is the current working branch. To add new code or documentation to OVJ, create a feature branch (name it something descriptive) from the Development branch. When your feature branch is complete, make a pull request back into Development. Once Development is validated and tested, the code can be pushed into Master.  
 * If we have a cycle of regular development, we may have version branches.
-
-* Keep your commits small and atomic, for example adding a function or fixing a bug, but not both at once.
-
-* Commits must not touch many files at once, with the exception of trivial changes, such as copyright. Try to break your commit into small, more contained changes.
-
-* Flatten your commit before you make a pull request.
-
-* Rebase from the latest development branch
+* Keep your commits small and atomic, for example adding a function or fixing a bug, but not both at once.  
+* Commits must not touch many files at once, with the exception of trivial changes, such as copyright. Try to break your commit into small, more contained changes.  
+* Flatten your commit before you make a pull request.  
+* Rebase from the latest development branch  
 
 ### Appdirs
 
 OVJ uses Appdirs; modular code that resides in "Application Directories" and can be optionally loaded at run-time to reconfigure the UI, pulse sequences, macros, etc. If a new feature can be implemented via a Appdir without changes to the Core OVJ code, this is greatly preferable.
 
-If you have minor features to add or changes to existing macros, templates, or pulse sequences, please put this work in the "develop" Appdir ("/common/develop"). When a new release of OVJ is made, the "develop" Appdir will be merged into a release Appdir.
+If you have minor features to add or changes to existing macros, templates, or pulse sequences, please put this work in the "develop" Appdir ("openvnmrj-develop"). When a new release of OVJ is made, the "develop" Appdir will be merged into a release Appdir.
 
 If you have a significantly new feature or a very large number of files and changes, you should make your own new, separate Appdir (with its own name) in the Development branch of the OVJ code.
 
@@ -83,7 +81,11 @@ If you have a significantly new feature or a very large number of files and chan
 
 ### Git workflow
 
-_This is for a public repository._
+We will have a UI for OpenVnmrJ such that users will be able to install and submit 
+contributions as appdirs to OpenVnmrJ. This is technical and for users who want more
+control over their submissions or are interested in changing the core of OpenVnmrJ.
+
+_This is a public repository._
 
 A "quick" summary of how to use change/add files is:
 
@@ -110,8 +112,7 @@ git pull
 ```
 Present-tense summary under 50 characters
 
-* More information about commit (under 72 characters).
-* More information about commit (under 72 characters).
+* More information about commit (under 72 characters)
 
 [PROJECT TICKET]
 ```
@@ -124,24 +125,34 @@ Present-tense summary under 50 characters
 See https://sandofsky.com/blog/git-workflow.html for a background on git workflow. See also https://github.com/thoughtbot/guides/blob/master/protocol/git/README.md for another workflow.
 
 ### Branches
+
 `git checkout -b "my feature"`  
 See https://www.atlassian.com/git/tutorials/using-branches/git-checkout on how to make a branch and use branches  
 See http://nvie.com/posts/a-successful-git-branching-model/ for how this applies to a real project  
 
 ### Git pulls
+
 See https://help.github.com/articles/using-pull-requests/  
 “Fork and pull” model is good for this project (when there are more contributors).  
 The GitHub UI can be used. Review the changes and  
 `git merge --no-ff development`
 
-## Delete your feature branch
+### Delete your feature branch
+
 Delete your feature branch once done with it  
 On your fork on github  
+
 `git push origin --delete <branch-name>`
 In your local repository  
 `git branch --delete <branch-name>`
 
 ## The future
-We will work on making this transparent to users int he following cases:  
+
+We will work on making this transparent to users in the following cases:  
 1. Submitting pulse sequences
 2. Submitting macros
+
+### VnmrJ macros and Appdirs
+
+To make this process easier, we will divide the source into repositories and use VnmrJ macros. This is a work in progress.
+

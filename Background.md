@@ -5,7 +5,7 @@ excerpt: "History of the OpenVnmrJ project."
 ---
 ## Background
 
-On October 14, 2014, Agilent Technologies, Inc., announced that it would close its NMR (Nuclear Magnetic Resonance) business.
+On October 14, 2014, Agilent Technologies, Inc., announced that it would close its NMR (Nuclear Magnetic Resonance) and MRI (Magnetic Resonance Imaging) businesses.
 
 In an Open Letter to the NMR Community from Agilent on June 5, 2015, Agilent offered to provide free licensing of VnmrJ 4.2 for all applications, including the DOSY and CRAFT options.
 
@@ -15,16 +15,16 @@ The open source version of VnmrJ will be known as "OpenVnmrJ", and is a derivati
 
 While Agilent retains the rights to VnmrJ 4.2 (and previous versions of VnmrJ), title to OpenVNMRJ is now owned by the University of Oregon. 
 
-University of Oregon contacts include:
+University of Oregon contacts are:
 
 	Michael Strain, Director, CAMCOR NMR Facility,
-	University of Oregon
-	mstrain@uoregon.edu, 541-346-4605
-	(technical contact and liaison to VOSSG and NMR community)
+	University of Oregon  
+	mstrain@uoregon.edu, 541-346-4605  
+	(technical contact and liaison to VOSSG and NMR community)  
 
-	Charles Williams, Associate Vice President for Innovation,
-	University of Oregon crw@uoregon.edu 541-346-2028
-	(legal signatory & director of Technology Transfer office)
+	Charles Williams, Associate Vice President for Innovation,  
+	University of Oregon crw@uoregon.edu 541-346-2028  
+	(legal signatory & director of Technology Transfer office)  
 
 The University of Oregon accepts ownership/custody of the OpenVnmrJ code for the benefit of the greater NMR community, and with the intention of facilitating its release to the world under appropriate open source license(s).
 
@@ -53,4 +53,3 @@ The University of Oregon acknowledges the external advisory body, the VnmrJ Open
 VOSSG will assist in determining the appropriate licensing terms for release of the code to the world, any additional licensing terms for contributors, and any other ground rules/expectations. Current members of VOSSG shall determine any additions or changes to VOSSG membership.
 
 VOSSG will also take primary responsibility for maintaining the code, documentation, and for any modifications to OpenVnmrJ, via the OpenVnmrJ project on GitHub and/or any other method chosen by VOSSG.
-
