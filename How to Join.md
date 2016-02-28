@@ -10,7 +10,7 @@ excerpt: "How to join this project"
 Communication is important. We use Spinsights, Basecamp, and Github. Get free accounts and look for OpenVnmrJ. OpenVnmrJ has a presence on Trello and Slack but most planning is done in Basecamp.
 
 #### Spinsights
-Spinsights is Agilent's NMR and MRI support board, which is availabe at https://spinsights.chem.agilent.com. Please ask questions and provide feedback throught Spinsights
+Spinsights is Agilent's NMR and MRI support board, which is available at https://spinsights.chem.agilent.com. Please ask questions and provide feedback throught Spinsights
 
 #### Basecamp
 Hosted by Eric Paulson at Yale, OpenVnmrJ is using basecamp for planning and project management. 
@@ -34,6 +34,8 @@ Especially do so if you plan to work on something big. Nothing is more frustrati
 Core committers are those who have push access to the main OpenVnmrJ repository that produces OpenVnmrJ. To become a core committer, one needs to sign the contributor license agreement.
  
 One is not required to have a proven history of contributions before being granted commit access, but that doesn’t mean other core committers will never revert your changes.
+
+The master branch is protected from deletion and force pushes and so all updates to the master branch must be done by pull requests.
 
 The list of CLA signers is be maintained here: 
 [TODO]
