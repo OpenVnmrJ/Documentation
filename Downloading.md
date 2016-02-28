@@ -31,7 +31,7 @@ TODO!
 
 ##Disclaimer##
 
-**Do not delete the Agilent supplied VnmrJ on your spectrometer**
+** Do not delete the Agilent supplied VnmrJ on your spectrometer **
 
 * Agilent service requires VnmrJ 4.2
 * The spectrometer console software is NOT open sourced

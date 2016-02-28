@@ -6,7 +6,6 @@ permalink: building-on-linux.html
 ---
 ## Building OVJ on Linux
 
-
 See README.ovj
 v0.3
 11 September 2015

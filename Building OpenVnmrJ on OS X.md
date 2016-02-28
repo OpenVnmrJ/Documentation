@@ -12,7 +12,7 @@ If you just want to use openVnmrJ on OS X, please just download and install the 
 
 If you want to change macros, UI or pulse sequences, see the relevent README.
 
-##To build from source:
+## To build from source:
 
 1. Install Xcode 7 for OS X 10.10.5 Yosemite or OS X10.11 El Capitan or Xcode 6 on OS X 10.9.5 Mavericks from https://itunes.apple.com/app/xcode/id497799835 or http://developer.apple.com/
 1. Install javaformac.dmg available at https://support.apple.com/kb/DL1573
@@ -65,15 +65,17 @@ drwxr-xr-x  3 timburrow  staff  102  5 Oct 10:21 Package_contents
 drwxr-xr-x  4 timburrow  staff  136  5 Oct 10:21 install_resources
 ```Building OVJ on Linux
  
-## Watchouts 
+
+## Watchouts
  
  1. Some solidspack pulse sequences are different in case only; some macros and .c and .xml files will be overwritten when expanding the zip archive
 
-## Build OVJ 
-Building OVJ on Linux
+## Build OVJ
+
+Building OVJ on OS X (El Capitan)
 This is the buildovj file I used
 
-```datastaion
+```datastation
 
 #! /bin/sh
 #
