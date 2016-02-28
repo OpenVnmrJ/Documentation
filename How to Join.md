@@ -168,3 +168,7 @@ Copyleft licenses, even though they are open-sourced, __cannot be copied__, such
 
 The code to be copied must be clearly marked with the license it is under, and when copying, you need to maintain the copyright/license attribution in the header. 
 Please also indicate the origin of the copy as a part of the commit message.
+
+### Code of Conduct
+
+We expect all contributors to follow the [Code of Conduct](Code of Conduct.md). This code of conduct outlines our expectations for participants within the OpenVnmrJ community, as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all and expect our code of conduct to be honored. Anyone who violates this code of conduct may be banned from the community.

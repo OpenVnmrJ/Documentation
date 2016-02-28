@@ -21,6 +21,10 @@ Even users unfamiliar with code can contribute: install and run the development 
 
 Our striving to a low barrier of entry doesn’t mean everyone has the equal voice. We value those who contribute more to the project, namely Meritocracy. Contribution shouldn’t be narrowly interpreted just as code changes, but rather it includes such activities as helping others in the OpenVnmrJ community, producing documentation, running infrastructure, and so on.
 
+### Code of Conduct
+
+We expect all contributors to follow the [Code of Conduct](Code of Conduct.md). This code of conduct outlines our expectations for participants within the OpenVnmrJ community, as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all and expect our code of conduct to be honored. Anyone who violates this code of conduct may be banned from the community.
+
 ### Transparency
 
 We believe in running the project transparently. This includes everything from decision-making to defects in the code.
