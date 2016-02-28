@@ -5,10 +5,9 @@ excerpt: "Instructions on how to contribute to the OpenVnmrJ project."
 ---
 {% include toc.html %}
 
-# Our Philosophy
+## Our Philosophy
 
-## Low barrier of entry
-
+### Low barrier of entry
 
 We strive for a low barrier of entry to the project. This is partly achieved by not requiring new contributors to “prove themselves” before they are admitted to the "committership" (or soe other honorific).  Instead, we assume that all contributors are good until proven otherwise, and this principle applies to anybody without arbitrary discrimination. We recognize that every contribution is precious, and we recognize that every added process turns away some potential contributors.
 
@@ -32,7 +31,6 @@ We recognize that users expect their existing data, accumulated under past versi
 
 The use of modules, called applications directories (or "appdirs"), is strongly encouraged (if not mandatory) for adding any functionality that is large in scope. Also in this spirit, minimizing any needed changes to the "core" code for new features is strongly preferred.
 
-
 ## How to join this project
 
 See the document How to Join.md for more details. 
@@ -55,19 +53,13 @@ On Ubuntu: sudo apt-get install gitk
 
 OVJ code is developed on two main branches; see http://nvie.com/posts/a-successful-git-branching-model/
 
-* Master: This will produce the final compiled downloadable archives. It must be kept clean of bugs! Unless it is a critical bug-fix, no new code should be branched directly from Master. Master will be a protected branch and is regarded as "stable."
-
-* Development: This is the current working branch. To add new code or documentation to OVJ, create a feature branch (name it something descriptive) from the Development branch. When your feature branch is complete, make a pull request back into Development. Once Development is validated and tested, the code can be pushed into Master.
-
+* Master: This will produce the final compiled downloadable archives. It must be kept clean of bugs! Unless it is a critical bug-fix, no new code should be branched directly from Master. Master will be a protected branch and is regarded as "stable."  
+* Development: This is the current working branch. To add new code or documentation to OVJ, create a feature branch (name it something descriptive) from the Development branch. When your feature branch is complete, make a pull request back into Development. Once Development is validated and tested, the code can be pushed into Master.  
 * If we have a cycle of regular development, we may have version branches.
-
-* Keep your commits small and atomic, for example adding a function or fixing a bug, but not both at once.
-
-* Commits must not touch many files at once, with the exception of trivial changes, such as copyright. Try to break your commit into small, more contained changes.
-
-* Flatten your commit before you make a pull request.
-
-* Rebase from the latest development branch
+* Keep your commits small and atomic, for example adding a function or fixing a bug, but not both at once.  
+* Commits must not touch many files at once, with the exception of trivial changes, such as copyright. Try to break your commit into small, more contained changes.  
+* Flatten your commit before you make a pull request.  
+* Rebase from the latest development branch  
 
 ### Appdirs
 
@@ -126,24 +118,31 @@ See https://sandofsky.com/blog/git-workflow.html for a background on git workflo
 
 ### Branches
 
-`git checkout -b "my feature"`
-See https://www.atlassian.com/git/tutorials/using-branches/git-checkout on how to make a branch and use branches
-See http://nvie.com/posts/a-successful-git-branching-model/ for how this applies to a real project
+`git checkout -b "my feature"`  
+See https://www.atlassian.com/git/tutorials/using-branches/git-checkout on how to make a branch and use branches  
+See http://nvie.com/posts/a-successful-git-branching-model/ for how this applies to a real project  
 
-###Git pulls
+### Git pulls
 
-See https://help.github.com/articles/using-pull-requests/
-“Fork and pull” model is good for this project (when there are more contributors).
-The GitHub UI can be used. Review the changes and
+See https://help.github.com/articles/using-pull-requests/  
+“Fork and pull” model is good for this project (when there are more contributors).  
+The GitHub UI can be used. Review the changes and  
 `git merge --no-ff development`
 
-## Delete your feature branch 
+## Delete your feature branch
 
-Delete your feature branch once done with it
-On your fork on github
+Delete your feature branch once done with it  
+On your fork on github  
 `git push origin --delete <branch-name>`
-In your local repository
+In your local repository  
 `git branch --delete <branch-name>`
+
 
 ## VnmrJ macros and Appdirs
 To make this process easier, we will divide the source into repositories and use VnmrJ macros. This is a work in progress.
+
+## The future
+We will work on making this transparent to users in the following cases:  
+1. Submitting pulse sequences
+2. Submitting macros
+

@@ -2,8 +2,9 @@
 layout: article
 title: Building OVJ on OS X
 excerpt: "Building OVJ on OS X."
+permalink: building-on-osx.html
 ---
-# Building OVJ on OS X
+## Building OVJ on OS X
 
 This has been tested using gcc5.2 from https://github.com/timburrow/gcc-5.2-OSX.
 
@@ -11,7 +12,7 @@ If you just want to use openVnmrJ on OS X, please just download and install the 
 
 If you want to change macros, UI or pulse sequences, see the relevent README.
 
-##To build from source:##
+## To build from source:
 
 1. Install Xcode 7 for OS X 10.10.5 Yosemite or OS X10.11 El Capitan or Xcode 6 on OS X 10.9.5 Mavericks from https://itunes.apple.com/app/xcode/id497799835 or http://developer.apple.com/
 1. Install javaformac.dmg available at https://support.apple.com/kb/DL1573
@@ -31,6 +32,7 @@ sudo tar jxf gcc5.2-osx-usrlocal.tar.bz2 -C /
   a. This will be replaced by gcc4.9 in /vnmr/gcc later (since Linux version uses gcc 4.9); need to include a Darwin scons file
 
 4. Set up the build environment
+
 ```
 export PATH=/usr/local/bin:${PATH} # if not on path already
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
@@ -55,6 +57,7 @@ cp -a ./git-repo/src/scripts/buildovj .
 ```
  
  5. If the build is successful, dvdimageOVJ will have:
+ 
  ```
  ls -l dvdimageOVJ/
 total 0
@@ -62,11 +65,11 @@ drwxr-xr-x  3 timburrow  staff  102  5 Oct 10:21 Package_contents
 drwxr-xr-x  4 timburrow  staff  136  5 Oct 10:21 install_resources
 ```Building OVJ on Linux
  
-## Watchouts ##
+## Watchouts
  
  1. Some solidspack pulse sequences are different in case only; some macros and .c and .xml files will be overwritten when expanding the zip archive
 
-## Build OVJ ##
+## Build OVJ
 Building OVJ on Linux
 This is the buildovj file I used
 

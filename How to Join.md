@@ -43,12 +43,12 @@ One is not required to have a proven history of contributions before being grant
 The list of CLA signers is be maintained here: 
 [TODO]
 
-
-## Bringing in new plugins/tools/libraries/appdirs
+## Contributing new plugins/tools/libraries/appdirs
 
 If you develop a plugin/tool/library/appdir, we encourage you to co-host that with the 
 OpenVnmrJ project so that other people in the community can participate. 
 See Hosting Appdirs for more details.
+
 
 ## Making changes to existing appdirs/macros/pulse sequences
 
@@ -87,22 +87,25 @@ they are collaboratively maintained by people making small changes and
 releasing them whenever the need arises.  If in doubt, ask on the dev 
 list.
 
+
 ## Making changes to core code
 
 If you are interested in just making small changes without an intent 
-to stay, the same process applies as macros and pulse sequences, described above. However, because core changes affect larger number of people, we’d be grateful if you’d try to go extra distance on the notes described in using pull requests.
+to stay, the same process applies as macros and pulse sequences, described above. 
+However, because core changes affect larger number of people, we’d be grateful 
+if you’d try to go extra distance on the notes described in using pull requests.  
 
 If you’d like to be involved more seriously, consider getting commit 
 access. See the section about becoming a plugin developer for how to get
-this. In addition, we need to ask you to sign the contributor license agreement (CLA).
+this. In addition, we need to ask you to sign the contributor license agreement (CLA).  
 
 When making changes, use your common sense. For example, if you are 
 thinking about making a big change, it is recommended that you discuss 
 your changes with the developers upfront. Or if you see that the part 
 you’d like to work on has been actively modified by others, give them a 
-heads-up.
+heads-up.  
 
-## Contributing localizations
+### Contributing localizations
 
 We are always looking for people who can help localize OpenVnmrJ to 
 different languages. If you are interested in helping, drop us a note in
@@ -113,14 +116,20 @@ Slack to get commit access, and see Internationalization for the details of how 
 See "Contributing.md" for nitty-gritty details on how to submit to the core of OpenVnmrJ. See below for some guidance.
 
 ## Rebase before merging
-The merge commits should make good sense to the history of the project. Do not commit branches that are full of git commits. Please rebase and commit a clean branch.
+
+The merge commits should make good sense to the history of the project. 
+Do not commit branches that are full of git commits. Please rebase and commit a clean branch.
 
 ## Cherry picking
+
 Cherry pick across a branch to add need functionality quickly. 
 
 ## Code review
-At least two people should read through each commit. Large commits are difficult and take a long time to code review, so commit smaller chunks. Lets core committers know if a large commit is coming, and let them know well in advance, perhaps before you start!
 
+At least two people should read through each commit. Large commits are difficult and 
+take a long time to code review, so commit smaller chunks.
+Let core committers know if a large commit is coming, and let them know well in advance, 
+perhaps before you start!  
 
 ## Using pull requests
 
@@ -128,23 +137,37 @@ As discussed above, OpenVnmrJ project uses pull requests as one of the
 main workflow to get the changes in. When you prepare your pull request,
 consider the following checklist as the best practice.
 
-* See the github online help for how to create a pull request
-* Basically, fork one of the repositories into your github account. Then clone the repository to your local computer. Add the fork as an upstream repository so you can push changes to your fork. Now, create a branch so you can identify your changes. Name the branch usefully, for example, if you are fixing ISSUE-123, name it “fix-issue-123”. Branch from development or a feature branch, don’t branch from the stable branch unless you are back porting an important fix.
-* Always write tests for you changes. Commit when you are done. Push your changes. Go to github and file a pull request.
-* Before you start, please file a ticket in the issue tracker to describe the bug that you are fixing or the feature you are implementing. This creates a permanent record on our system that allows 
-future developers to understand how the code came into the current shape. This is not a requirement (especially for small changes), but we appreciate if you do that.
-
-* Refer to the ticket in your commit message by using the notation [OpenVnmrJ-1234] where OpenVnmrJ-1234 is the ticket ID. This allows our scripts to understand the history and generate change logs without human help. If you use the notation [FIXED OpenVnmrJ-1234], our bot will close the ticket automatically when the change is merged into the repository, and when the change is tested in our CI server. These notations create useful cross-references across systems, and are therefore highly recommended.We encourage you to have a test case for the code you added to avoid future regressions. 
-
-* See Unit Test for more details about how to write tests. Try to describe your changes so that other people understand what you did. Make sure you didn’t modify portions that aren’t related to your changes (most often caused by IDE auto-fixing import statements and other code formats.)
-
-* If you notice that your pull requests aren’t getting attended to within a week or two, please drop us a note in Slack, and please consider becoming a committer and push the changes directly. See Pull Request to Repositories for more.
+* See the github online help for how to create a pull request  
+* Basically, fork one of the repositories into your github account. Then clone the repository to your local computer.  
+Add the fork as an upstream repository so you can push changes to your fork. 
+Now, create a branch so you can identify your changes. 
+Name the branch usefully, for example, if you are fixing ISSUE-123, name it “fix-issue-123”. 
+Branch from development or a feature branch, don’t branch from the stable branch unless you are back porting an important fix.  
+* Always write tests for you changes. Commit when you are done. Push your changes. 
+Go to github and file a pull request.
+* Before you start, please file a ticket in the issue tracker to describe the bug that 
+you are fixing or the feature you are implementing. This creates a permanent record on our system that allows 
+future developers to understand how the code came into the current shape. 
+This is not a requirement (especially for small changes), but we appreciate if you do that.  
+* Refer to the ticket in your commit message by using the notation [OpenVnmrJ-1234] where OpenVnmrJ-1234 is the ticket ID. 
+This allows our scripts to understand the history and generate change logs without human help. If you use the notation [FIXED OpenVnmrJ-1234], 
+our bot will close the ticket automatically when the change is merged into the repository, 
+and when the change is tested in our CI server. These notations create useful cross-references across systems, 
+and are therefore highly recommended. We encourage you to have a test case for the code you added to avoid future regressions.  
+* See Unit Test for more details about how to write tests. Try to describe your changes 
+so that other people understand what you did. Make sure you didn’t modify portions that aren’t related to your changes 
+(most often caused by IDE auto-fixing import statements and other code formats.)
+* If you notice that your pull requests aren’t getting attended to within a week or two,
+ please drop us a note in Slack, and please consider becoming a committer and push the changes directly. 
+ See Pull Request to Repositories for more.  
 
 ## Copying Code from elsewhere
-Copying code from elsewhere
 
 When you have a license to do so, and when that license is compatible with the Apache 2.0 license, you can copy the code from elsewhere into OpenVnmrJ.
 
-The most typical case of this is that the original code is licensed under a certain subset of the open-source licenses, such as ASL, BSD, and MIT license. Copyleft licenses, even though they are open-sourced, __cannot be copied__, such as EPL and GPL, *unless it is part of the GPL components of OpenVnmrJ*. 
+The most typical case of this is that the original code is licensed under a certain subset of the open-source licenses, 
+such as ASL, BSD, and MIT license.   
+Copyleft licenses, even though they are open-sourced, __cannot be copied__, such as EPL and GPL, *unless it is part of the GPL components of OpenVnmrJ*. 
 
-The code to be copied must be clearly marked with the license it is under, and when copying, you need to maintain the copyright/license attribution in the header. Please also indicate the origin of the copy as a part of the commit message.
+The code to be copied must be clearly marked with the license it is under, and when copying, you need to maintain the copyright/license attribution in the header. 
+Please also indicate the origin of the copy as a part of the commit message.
