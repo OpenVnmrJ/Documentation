@@ -144,13 +144,13 @@ On your fork on github
 In your local repository  
 `git branch --delete <branch-name>`
 
-### The future
+## The future
 
 We will work on making this transparent to users in the following cases:  
 1. Submitting pulse sequences
 2. Submitting macros
 
-## VnmrJ macros and Appdirs
+### VnmrJ macros and Appdirs
 
 To make this process easier, we will divide the source into repositories and use VnmrJ macros. This is a work in progress.
 
