@@ -53,19 +53,13 @@ On Ubuntu: `sudo apt-get install gitk`
 
 OVJ code is developed on two main branches; see http://nvie.com/posts/a-successful-git-branching-model/
 
-* Master: This will produce the final compiled downloadable archives. It must be kept clean of bugs! Unless it is a critical bug-fix, no new code should be branched directly from Master. Master will be a protected branch and is regarded as "stable."
-
-* Development: This is the current working branch. To add new code or documentation to OVJ, create a feature branch (name it something descriptive) from the Development branch. When your feature branch is complete, make a pull request back into Development. Once Development is validated and tested, the code can be pushed into Master.
-
+* Master: This will produce the final compiled downloadable archives. It must be kept clean of bugs! Unless it is a critical bug-fix, no new code should be branched directly from Master. Master will be a protected branch and is regarded as "stable."  
+* Development: This is the current working branch. To add new code or documentation to OVJ, create a feature branch (name it something descriptive) from the Development branch. When your feature branch is complete, make a pull request back into Development. Once Development is validated and tested, the code can be pushed into Master.  
 * If we have a cycle of regular development, we may have version branches.
-
-* Keep your commits small and atomic, for example adding a function or fixing a bug, but not both at once.
-
-* Commits must not touch many files at once, with the exception of trivial changes, such as copyright. Try to break your commit into small, more contained changes.
-
-* Flatten your commit before you make a pull request.
-
-* Rebase from the latest development branch
+* Keep your commits small and atomic, for example adding a function or fixing a bug, but not both at once.  
+* Commits must not touch many files at once, with the exception of trivial changes, such as copyright. Try to break your commit into small, more contained changes.  
+* Flatten your commit before you make a pull request.  
+* Rebase from the latest development branch  
 
 ### Appdirs
 
