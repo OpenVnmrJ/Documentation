@@ -24,8 +24,9 @@ If you only want to download and run OpenVnmrJ, you should get a pre-built archi
 
 ### Spectrometer users, read this
 
-* ** Do not delete the Agilent supplied VnmrJ on your spectrometer **
-* Agilent service requires VnmrJ 4.2
+* OpenVnmrJ can be used for spectrometer control if VnmrJ 4.2 is installed but 
+  * ** Do not delete the Agilent supplied VnmrJ on your spectrometer **
+  * Agilent service requires VnmrJ 4.2
 * The spectrometer console software is NOT open sourced
 * If a copy of VnmrJ 4.2 is found during installation, the spectrometer acquisition components will be copied into OpenVnmrJ
 
