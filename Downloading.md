@@ -12,10 +12,12 @@ Contributors that point out bugs, give suggestions, or help us prioritize issues
 
 OVJ is compatible with these Varian/Agilent consoles:
  * Mercury
+ * Inova
  * VnmrS
  * DD2
- * VeriPulse
- * Inova (?)
+ * 400-MR
+ * 400-MR_DD2
+ * ProPulse
 
 ## Operating Systems ##
 
